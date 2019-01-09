@@ -1,0 +1,87 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule","<typesAOW.module>"]
+  "test": ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.xctest","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.swiftmodule","<typesAOW.module>","<typesAOWPackageTests.test>","<typesAOWTests.module>"]
+  "typesAOW.module": ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule","<typesAOW.module>"]
+  "typesAOWPackageTests.module": ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.swiftmodule","<typesAOWPackageTests.module>"]
+  "typesAOWPackageTests.test": ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.xctest","<typesAOWPackageTests.test>"]
+  "typesAOWTests.module": ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.swiftmodule","<typesAOWTests.module>"]
+default: "main"
+commands: 
+  "<C.typesAOW.module>":
+    tool: phony
+    inputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule"]
+    outputs: ["<typesAOW.module>"]
+
+  "<C.typesAOWPackageTests.module>":
+    tool: phony
+    inputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.swiftmodule"]
+    outputs: ["<typesAOWPackageTests.module>"]
+
+  "<C.typesAOWPackageTests.test>":
+    tool: phony
+    inputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.xctest"]
+    outputs: ["<typesAOWPackageTests.test>"]
+
+  "<C.typesAOWTests.module>":
+    tool: phony
+    inputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.swiftmodule"]
+    outputs: ["<typesAOWTests.module>"]
+
+  "C.typesAOW.module":
+    tool: swift-compiler
+    executable: "/home/oui/Téléchargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/bin/swiftc"
+    module-name: "typesAOW"
+    module-output-path: "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule"
+    inputs: ["/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCarte.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleChampsDeBataille.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCimetiere.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleMain.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePioche.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePosition.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleRoyaume.swift"]
+    outputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCarte.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleChampsDeBataille.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCimetiere.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleMain.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePioche.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePosition.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleRoyaume.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule"]
+    import-paths: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug"]
+    temps-path: "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build"
+    objects: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCarte.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleChampsDeBataille.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCimetiere.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleMain.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePioche.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePosition.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleRoyaume.swift.o"]
+    other-args: ["-swift-version","4.2","-enable-batch-mode","-target","x86_64-unknown-linux","-sdk","/","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCarte.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleChampsDeBataille.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCimetiere.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleMain.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePioche.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePosition.swift","/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleRoyaume.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.typesAOWPackageTests.module":
+    tool: swift-compiler
+    executable: "/home/oui/Téléchargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/bin/swiftc"
+    module-name: "typesAOWPackageTests"
+    module-output-path: "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.swiftmodule"
+    inputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.swiftmodule","/home/oui/AOW/typesAOW/Tests/LinuxMain.swift"]
+    outputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.build/LinuxMain.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.swiftmodule"]
+    import-paths: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug"]
+    temps-path: "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.build"
+    objects: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.build/LinuxMain.swift.o"]
+    other-args: ["-swift-version","4.2","-enable-batch-mode","-target","x86_64-unknown-linux","-sdk","/","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/oui/AOW/typesAOW/Tests/LinuxMain.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.typesAOWPackageTests.test":
+    tool: shell
+    description: "Linking /home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.xctest"
+    inputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCarte.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleChampsDeBataille.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCimetiere.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleMain.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePioche.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePosition.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleRoyaume.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.build/LinuxMain.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/XCTestManifests.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/typesAOWTests.swift.o"]
+    outputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.xctest"]
+    args: ["/home/oui/Téléchargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/bin/swiftc","-target","x86_64-unknown-linux","-sdk","/","-g","-L","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug","-o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.xctest","-module-name","typesAOWPackageTests","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWPackageTests.product/Objects.LinkFileList"]
+
+  "C.typesAOWTests.module":
+    tool: swift-compiler
+    executable: "/home/oui/Téléchargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/bin/swiftc"
+    module-name: "typesAOWTests"
+    module-output-path: "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.swiftmodule"
+    inputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule","/home/oui/AOW/typesAOW/Tests/typesAOWTests/XCTestManifests.swift","/home/oui/AOW/typesAOW/Tests/typesAOWTests/typesAOWTests.swift"]
+    outputs: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/XCTestManifests.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/typesAOWTests.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.swiftmodule"]
+    import-paths: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug"]
+    temps-path: "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build"
+    objects: ["/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/XCTestManifests.swift.o","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/typesAOWTests.swift.o"]
+    other-args: ["-swift-version","4.2","-enable-batch-mode","-target","x86_64-unknown-linux","-sdk","/","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/oui/AOW/typesAOW/Tests/typesAOWTests/XCTestManifests.swift","/home/oui/AOW/typesAOW/Tests/typesAOWTests/typesAOWTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+

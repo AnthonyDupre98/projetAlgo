@@ -1,0 +1,421 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocoleCarteTests"
+- "ProtocoleChampsDeBatailleTests"
+- "ProtocoleCimetiereTests"
+- "ProtocoleMainTests"
+- "ProtocolePiocheTests"
+- "ProtocolePositionTests"
+- "ProtocoleRoyaumeTests"
+provides-nominal:
+- "13typesAOWTests19ProtocoleCarteTestsC"
+- "13typesAOWTests30ProtocoleChampsDeBatailleTestsC"
+- "13typesAOWTests23ProtocoleCimetiereTestsC"
+- "13typesAOWTests18ProtocoleMainTestsC"
+- "13typesAOWTests20ProtocolePiocheTestsC"
+- "13typesAOWTests22ProtocolePositionTestsC"
+- "13typesAOWTests21ProtocoleRoyaumeTestsC"
+provides-member:
+- ["13typesAOWTests19ProtocoleCarteTestsC", ""]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", ""]
+- ["13typesAOWTests23ProtocoleCimetiereTestsC", ""]
+- ["13typesAOWTests18ProtocoleMainTestsC", ""]
+- ["13typesAOWTests20ProtocolePiocheTestsC", ""]
+- ["13typesAOWTests22ProtocolePositionTestsC", ""]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", ""]
+depends-top-level:
+- "Array"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "ProtocoleCarte"
+- "ProtocoleCarteTests"
+- !private "ProtocoleChampsDeBataille"
+- "ProtocoleChampsDeBatailleTests"
+- !private "ProtocoleCimetiere"
+- "ProtocoleCimetiereTests"
+- !private "ProtocoleMain"
+- "ProtocoleMainTests"
+- !private "ProtocolePioche"
+- "ProtocolePiocheTests"
+- !private "ProtocolePosition"
+- "ProtocolePositionTests"
+- !private "ProtocoleRoyaume"
+- "ProtocoleRoyaumeTests"
+- "StringLiteralType"
+- !private "XCTAssertEqual"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["6XCTest8ListableP", "ProtocoleCarte"]
+- !private ["6XCTest8ListableP", "ProtocoleChampsDeBataille"]
+- !private ["6XCTest8ListableP", "ProtocoleCimetiere"]
+- !private ["6XCTest8ListableP", "ProtocoleMain"]
+- !private ["6XCTest8ListableP", "ProtocolePioche"]
+- !private ["6XCTest8ListableP", "ProtocolePosition"]
+- !private ["6XCTest8ListableP", "ProtocoleRoyaume"]
+- !private ["6XCTest8ListableP", "XCTAssertEqual"]
+- !private ["6XCTest8ListableP", "XCTAssertTrue"]
+- ["6XCTest8ListableP", ""]
+- !private ["6XCTest8ListableP", "init"]
+- !private ["6XCTest8ListableP", "init"]
+- ["6XCTest8ListableP", "testAfficher"]
+- ["6XCTest8ListableP", "testAjoutDegat"]
+- ["6XCTest8ListableP", "testAjouter"]
+- ["6XCTest8ListableP", "testDeplacer"]
+- ["6XCTest8ListableP", "testEstFront"]
+- ["6XCTest8ListableP", "testInit"]
+- ["6XCTest8ListableP", "testPiocher"]
+- ["6XCTest8ListableP", "testPlacer"]
+- ["6XCTest8ListableP", "testPoser"]
+- ["6XCTest8ListableP", "testRedresser"]
+- ["6XCTest8ListableP", "testRetirer"]
+- ["6XCTest8ListableP", "testRetourner"]
+- ["6XCTest8ListableP", "testSortir"]
+- ["6XCTest8ListableP", "testSupprimer"]
+- ["6XCTest8ListableP", "testVoirSuivant"]
+- ["6XCTest8ListableP", "testaffichernom"]
+- ["6XCTest8ListableP", "testdegatsCumules"]
+- ["6XCTest8ListableP", "testestAportee"]
+- ["6XCTest8ListableP", "testestRetournee"]
+- ["6XCTest8ListableP", "testestVide"]
+- ["6XCTest8ListableP", "testgetColonne"]
+- ["6XCTest8ListableP", "testgetnbArchers"]
+- ["6XCTest8ListableP", "testgetnbCartes"]
+- ["6XCTest8ListableP", "testgetnbGardes"]
+- ["6XCTest8ListableP", "testgetnbSoldats"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "ProtocoleCarte"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "ProtocoleChampsDeBataille"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "ProtocoleCimetiere"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "ProtocoleMain"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "ProtocolePioche"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "ProtocolePosition"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "ProtocoleRoyaume"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "XCTAssertEqual"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "XCTAssertTrue"]
+- ["6XCTest24PerformanceMeterDelegateP", ""]
+- !private ["6XCTest24PerformanceMeterDelegateP", "init"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "init"]
+- ["6XCTest24PerformanceMeterDelegateP", "testAfficher"]
+- ["6XCTest24PerformanceMeterDelegateP", "testAjoutDegat"]
+- ["6XCTest24PerformanceMeterDelegateP", "testAjouter"]
+- ["6XCTest24PerformanceMeterDelegateP", "testDeplacer"]
+- ["6XCTest24PerformanceMeterDelegateP", "testEstFront"]
+- ["6XCTest24PerformanceMeterDelegateP", "testInit"]
+- ["6XCTest24PerformanceMeterDelegateP", "testPiocher"]
+- ["6XCTest24PerformanceMeterDelegateP", "testPlacer"]
+- ["6XCTest24PerformanceMeterDelegateP", "testPoser"]
+- ["6XCTest24PerformanceMeterDelegateP", "testRedresser"]
+- ["6XCTest24PerformanceMeterDelegateP", "testRetirer"]
+- ["6XCTest24PerformanceMeterDelegateP", "testRetourner"]
+- ["6XCTest24PerformanceMeterDelegateP", "testSortir"]
+- ["6XCTest24PerformanceMeterDelegateP", "testSupprimer"]
+- ["6XCTest24PerformanceMeterDelegateP", "testVoirSuivant"]
+- ["6XCTest24PerformanceMeterDelegateP", "testaffichernom"]
+- ["6XCTest24PerformanceMeterDelegateP", "testdegatsCumules"]
+- ["6XCTest24PerformanceMeterDelegateP", "testestAportee"]
+- ["6XCTest24PerformanceMeterDelegateP", "testestRetournee"]
+- ["6XCTest24PerformanceMeterDelegateP", "testestVide"]
+- ["6XCTest24PerformanceMeterDelegateP", "testgetColonne"]
+- ["6XCTest24PerformanceMeterDelegateP", "testgetnbArchers"]
+- ["6XCTest24PerformanceMeterDelegateP", "testgetnbCartes"]
+- ["6XCTest24PerformanceMeterDelegateP", "testgetnbGardes"]
+- ["6XCTest24PerformanceMeterDelegateP", "testgetnbSoldats"]
+- ["8typesAOW14ProtocoleCarteP", "init"]
+- !private ["8typesAOW14ProtocoleCarteP", "init"]
+- !private ["13typesAOWTests19ProtocoleCarteTestsC", "ProtocoleCarte"]
+- !private ["13typesAOWTests19ProtocoleCarteTestsC", "XCTAssertEqual"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "allTestsCarte"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "init"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "testAjoutDegat"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "testInit"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "testRedresser"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "testRetourner"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "testaffichernom"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "testdegatsCumules"]
+- ["13typesAOWTests19ProtocoleCarteTestsC", "testestRetournee"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "init"]
+- !private ["8typesAOW25ProtocoleChampsDeBatailleP", "init"]
+- !private ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "ProtocoleCarte"]
+- !private ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "ProtocoleChampsDeBataille"]
+- !private ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "ProtocolePosition"]
+- !private ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "XCTAssertEqual"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "allTestsChampsDeBataille"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "init"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "testDeplacer"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "testInit"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "testPoser"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "testSortir"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "testSupprimer"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "testestAportee"]
+- ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "testestVide"]
+- ["8typesAOW18ProtocoleCimetiereP", "init"]
+- !private ["8typesAOW18ProtocoleCimetiereP", "init"]
+- !private ["13typesAOWTests23ProtocoleCimetiereTestsC", "ProtocoleCarte"]
+- !private ["13typesAOWTests23ProtocoleCimetiereTestsC", "ProtocoleCimetiere"]
+- !private ["13typesAOWTests23ProtocoleCimetiereTestsC", "XCTAssertEqual"]
+- ["13typesAOWTests23ProtocoleCimetiereTestsC", "allTestsCimetiere"]
+- ["13typesAOWTests23ProtocoleCimetiereTestsC", "init"]
+- ["13typesAOWTests23ProtocoleCimetiereTestsC", "testAjouter"]
+- ["13typesAOWTests23ProtocoleCimetiereTestsC", "testInit"]
+- ["8typesAOW13ProtocoleMainP", "init"]
+- !private ["8typesAOW13ProtocoleMainP", "init"]
+- !private ["13typesAOWTests18ProtocoleMainTestsC", "ProtocoleCarte"]
+- !private ["13typesAOWTests18ProtocoleMainTestsC", "ProtocoleMain"]
+- !private ["13typesAOWTests18ProtocoleMainTestsC", "XCTAssertEqual"]
+- ["13typesAOWTests18ProtocoleMainTestsC", "allTestsMain"]
+- ["13typesAOWTests18ProtocoleMainTestsC", "init"]
+- ["13typesAOWTests18ProtocoleMainTestsC", "testAjouter"]
+- ["13typesAOWTests18ProtocoleMainTestsC", "testInit"]
+- ["13typesAOWTests18ProtocoleMainTestsC", "testRetirer"]
+- ["8typesAOW15ProtocolePiocheP", "init"]
+- !private ["8typesAOW15ProtocolePiocheP", "init"]
+- !private ["13typesAOWTests20ProtocolePiocheTestsC", "ProtocoleCarte"]
+- !private ["13typesAOWTests20ProtocolePiocheTestsC", "ProtocolePioche"]
+- !private ["13typesAOWTests20ProtocolePiocheTestsC", "XCTAssertEqual"]
+- ["13typesAOWTests20ProtocolePiocheTestsC", "allTestsPioche"]
+- ["13typesAOWTests20ProtocolePiocheTestsC", "init"]
+- ["13typesAOWTests20ProtocolePiocheTestsC", "testInit"]
+- ["13typesAOWTests20ProtocolePiocheTestsC", "testPiocher"]
+- ["13typesAOWTests20ProtocolePiocheTestsC", "testgetnbCartes"]
+- ["8typesAOW17ProtocolePositionP", "init"]
+- !private ["8typesAOW17ProtocolePositionP", "init"]
+- !private ["13typesAOWTests22ProtocolePositionTestsC", "ProtocoleCarte"]
+- !private ["13typesAOWTests22ProtocolePositionTestsC", "ProtocoleChampsDeBataille"]
+- !private ["13typesAOWTests22ProtocolePositionTestsC", "ProtocolePosition"]
+- !private ["13typesAOWTests22ProtocolePositionTestsC", "XCTAssertEqual"]
+- !private ["13typesAOWTests22ProtocolePositionTestsC", "XCTAssertTrue"]
+- ["13typesAOWTests22ProtocolePositionTestsC", "allTestsPosition"]
+- ["13typesAOWTests22ProtocolePositionTestsC", "init"]
+- ["13typesAOWTests22ProtocolePositionTestsC", "testAfficher"]
+- ["13typesAOWTests22ProtocolePositionTestsC", "testEstFront"]
+- ["13typesAOWTests22ProtocolePositionTestsC", "testInit"]
+- ["13typesAOWTests22ProtocolePositionTestsC", "testgetColonne"]
+- ["8typesAOW16ProtocoleRoyaumeP", "init"]
+- !private ["8typesAOW16ProtocoleRoyaumeP", "init"]
+- !private ["13typesAOWTests21ProtocoleRoyaumeTestsC", "ProtocoleCarte"]
+- !private ["13typesAOWTests21ProtocoleRoyaumeTestsC", "ProtocoleRoyaume"]
+- !private ["13typesAOWTests21ProtocoleRoyaumeTestsC", "XCTAssertEqual"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "allTestsRoyaume"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "init"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testInit"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testPlacer"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testRetirer"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testVoirSuivant"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testgetnbArchers"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testgetnbCartes"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testgetnbGardes"]
+- ["13typesAOWTests21ProtocoleRoyaumeTestsC", "testgetnbSoldats"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["6XCTestAAC", "ProtocoleCarte"]
+- !private ["6XCTestAAC", "ProtocoleChampsDeBataille"]
+- !private ["6XCTestAAC", "ProtocoleCimetiere"]
+- !private ["6XCTestAAC", "ProtocoleMain"]
+- !private ["6XCTestAAC", "ProtocolePioche"]
+- !private ["6XCTestAAC", "ProtocolePosition"]
+- !private ["6XCTestAAC", "ProtocoleRoyaume"]
+- !private ["6XCTestAAC", "XCTAssertEqual"]
+- !private ["6XCTestAAC", "XCTAssertTrue"]
+- ["6XCTestAAC", "allTestsCarte"]
+- ["6XCTestAAC", "allTestsChampsDeBataille"]
+- ["6XCTestAAC", "allTestsCimetiere"]
+- ["6XCTestAAC", "allTestsMain"]
+- ["6XCTestAAC", "allTestsPioche"]
+- ["6XCTestAAC", "allTestsPosition"]
+- ["6XCTestAAC", "allTestsRoyaume"]
+- !private ["6XCTestAAC", "init"]
+- ["6XCTestAAC", "testAfficher"]
+- ["6XCTestAAC", "testAjoutDegat"]
+- ["6XCTestAAC", "testAjouter"]
+- ["6XCTestAAC", "testDeplacer"]
+- ["6XCTestAAC", "testEstFront"]
+- ["6XCTestAAC", "testInit"]
+- ["6XCTestAAC", "testPiocher"]
+- ["6XCTestAAC", "testPlacer"]
+- ["6XCTestAAC", "testPoser"]
+- ["6XCTestAAC", "testRedresser"]
+- ["6XCTestAAC", "testRetirer"]
+- ["6XCTestAAC", "testRetourner"]
+- ["6XCTestAAC", "testSortir"]
+- ["6XCTestAAC", "testSupprimer"]
+- ["6XCTestAAC", "testVoirSuivant"]
+- ["6XCTestAAC", "testaffichernom"]
+- ["6XCTestAAC", "testdegatsCumules"]
+- ["6XCTestAAC", "testestAportee"]
+- ["6XCTestAAC", "testestRetournee"]
+- ["6XCTestAAC", "testestVide"]
+- ["6XCTestAAC", "testgetColonne"]
+- ["6XCTestAAC", "testgetnbArchers"]
+- ["6XCTestAAC", "testgetnbCartes"]
+- ["6XCTestAAC", "testgetnbGardes"]
+- ["6XCTestAAC", "testgetnbSoldats"]
+- !private ["6XCTest0A4CaseC", "ProtocoleCarte"]
+- !private ["6XCTest0A4CaseC", "ProtocoleChampsDeBataille"]
+- !private ["6XCTest0A4CaseC", "ProtocoleCimetiere"]
+- !private ["6XCTest0A4CaseC", "ProtocoleMain"]
+- !private ["6XCTest0A4CaseC", "ProtocolePioche"]
+- !private ["6XCTest0A4CaseC", "ProtocolePosition"]
+- !private ["6XCTest0A4CaseC", "ProtocoleRoyaume"]
+- !private ["6XCTest0A4CaseC", "XCTAssertEqual"]
+- !private ["6XCTest0A4CaseC", "XCTAssertTrue"]
+- ["6XCTest0A4CaseC", ""]
+- ["6XCTest0A4CaseC", "allTestsCarte"]
+- ["6XCTest0A4CaseC", "allTestsChampsDeBataille"]
+- ["6XCTest0A4CaseC", "allTestsCimetiere"]
+- ["6XCTest0A4CaseC", "allTestsMain"]
+- ["6XCTest0A4CaseC", "allTestsPioche"]
+- ["6XCTest0A4CaseC", "allTestsPosition"]
+- ["6XCTest0A4CaseC", "allTestsRoyaume"]
+- ["6XCTest0A4CaseC", "init"]
+- !private ["6XCTest0A4CaseC", "init"]
+- ["6XCTest0A4CaseC", "testAfficher"]
+- ["6XCTest0A4CaseC", "testAjoutDegat"]
+- ["6XCTest0A4CaseC", "testAjouter"]
+- ["6XCTest0A4CaseC", "testDeplacer"]
+- ["6XCTest0A4CaseC", "testEstFront"]
+- ["6XCTest0A4CaseC", "testInit"]
+- ["6XCTest0A4CaseC", "testPiocher"]
+- ["6XCTest0A4CaseC", "testPlacer"]
+- ["6XCTest0A4CaseC", "testPoser"]
+- ["6XCTest0A4CaseC", "testRedresser"]
+- ["6XCTest0A4CaseC", "testRetirer"]
+- ["6XCTest0A4CaseC", "testRetourner"]
+- ["6XCTest0A4CaseC", "testSortir"]
+- ["6XCTest0A4CaseC", "testSupprimer"]
+- ["6XCTest0A4CaseC", "testVoirSuivant"]
+- ["6XCTest0A4CaseC", "testaffichernom"]
+- ["6XCTest0A4CaseC", "testdegatsCumules"]
+- ["6XCTest0A4CaseC", "testestAportee"]
+- ["6XCTest0A4CaseC", "testestRetournee"]
+- ["6XCTest0A4CaseC", "testestVide"]
+- ["6XCTest0A4CaseC", "testgetColonne"]
+- ["6XCTest0A4CaseC", "testgetnbArchers"]
+- ["6XCTest0A4CaseC", "testgetnbCartes"]
+- ["6XCTest0A4CaseC", "testgetnbGardes"]
+- ["6XCTest0A4CaseC", "testgetnbSoldats"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "6XCTest8ListableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "6XCTest24PerformanceMeterDelegateP"
+- "8typesAOW14ProtocoleCarteP"
+- "13typesAOWTests19ProtocoleCarteTestsC"
+- "8typesAOW25ProtocoleChampsDeBatailleP"
+- "13typesAOWTests30ProtocoleChampsDeBatailleTestsC"
+- "8typesAOW18ProtocoleCimetiereP"
+- "13typesAOWTests23ProtocoleCimetiereTestsC"
+- "8typesAOW13ProtocoleMainP"
+- "13typesAOWTests18ProtocoleMainTestsC"
+- "8typesAOW15ProtocolePiocheP"
+- "13typesAOWTests20ProtocolePiocheTestsC"
+- "8typesAOW17ProtocolePositionP"
+- "13typesAOWTests22ProtocolePositionTestsC"
+- "8typesAOW16ProtocoleRoyaumeP"
+- "13typesAOWTests21ProtocoleRoyaumeTestsC"
+- "Sm"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "6XCTestAAC"
+- "6XCTest0A4CaseC"
+- "10Foundation13_CFBridgeableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "b91d661303fa91106ef3df6155c339f2"

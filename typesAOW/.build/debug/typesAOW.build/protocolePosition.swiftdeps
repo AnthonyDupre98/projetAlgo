@@ -1,0 +1,30 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocolePosition"
+provides-nominal:
+- "8typesAOW17ProtocolePositionP"
+provides-member:
+- ["8typesAOW17ProtocolePositionP", ""]
+depends-top-level:
+- "Bool"
+- "Int"
+- "ProtocolePosition"
+depends-member:
+- ["8typesAOW17ProtocolePositionP", "Bool"]
+- ["8typesAOW17ProtocolePositionP", "Int"]
+- ["8typesAOW17ProtocolePositionP", "ProtocoleCarte"]
+- ["8typesAOW17ProtocolePositionP", "afficher"]
+- ["8typesAOW17ProtocolePositionP", "estFront"]
+- ["8typesAOW17ProtocolePositionP", "getColonne"]
+- ["8typesAOW17ProtocolePositionP", "init"]
+depends-nominal:
+- "8typesAOW17ProtocolePositionP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "3bab0743093878f5258d552f8c6639e9"

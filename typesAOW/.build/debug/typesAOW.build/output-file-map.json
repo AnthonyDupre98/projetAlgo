@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/master.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCarte.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCarte.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCarte.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCarte~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCarte.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleChampsDeBataille.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleChampsDeBataille.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleChampsDeBataille.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleChampsDeBataille~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleChampsDeBataille.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCimetiere.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCimetiere.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCimetiere.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCimetiere~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleCimetiere.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleMain.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleMain.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleMain.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleMain~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleMain.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePioche.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePioche.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePioche.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePioche~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePioche.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePosition.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePosition.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePosition.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePosition~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocolePosition.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleRoyaume.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleRoyaume.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleRoyaume.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleRoyaume~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.build/protocoleRoyaume.swiftdeps"
+  }
+}

@@ -1,0 +1,56 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocoleChampsDeBataille"
+provides-nominal:
+- "8typesAOW25ProtocoleChampsDeBatailleP"
+provides-member:
+- ["8typesAOW25ProtocoleChampsDeBatailleP", ""]
+depends-top-level:
+- "Bool"
+- "Int"
+- "IteratorProtocol"
+- "ProtocoleChampsDeBataille"
+- "Sequence"
+depends-member:
+- ["St", "Element"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "Bool"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "CDB2"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "Int"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "IteratorChampsDeBataille"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "IteratorProtocol"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "ProtocoleCarte"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "ProtocoleChampsDeBataille"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "ProtocolePosition"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "ProtocoleRoyaume"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "afficherposition"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "deplacer"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "estAportee"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "estVide"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "init"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "makeItFront"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "poser"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "sortir"]
+- ["8typesAOW25ProtocoleChampsDeBatailleP", "supprimer"]
+- ["ST", "Bool"]
+- ["ST", "CDB2"]
+- ["ST", "Int"]
+- ["ST", "IteratorChampsDeBataille"]
+- ["ST", "IteratorProtocol"]
+- ["ST", "ProtocoleCarte"]
+- ["ST", "ProtocoleChampsDeBataille"]
+- ["ST", "ProtocolePosition"]
+- ["ST", "ProtocoleRoyaume"]
+- ["ST", ""]
+depends-nominal:
+- "St"
+- "8typesAOW25ProtocoleChampsDeBatailleP"
+- "ST"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "d9a2166f9ee26cebdb138f6ddd855867"

@@ -1,0 +1,75 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "allTests"
+provides-nominal:
+provides-member:
+depends-top-level:
+- !private "ProtocoleCarteTests"
+- !private "ProtocoleChampsDeBatailleTests"
+- !private "ProtocoleCimetiereTests"
+- !private "ProtocoleMainTests"
+- !private "ProtocolePiocheTests"
+- !private "ProtocolePositionTests"
+- !private "ProtocoleRoyaumeTests"
+- "XCTestCaseEntry"
+- "allTests"
+- !private "testCase"
+depends-member:
+- !private ["6XCTest8ListableP", "allTestsCarte"]
+- !private ["6XCTest8ListableP", "allTestsChampsDeBataille"]
+- !private ["6XCTest8ListableP", "allTestsCimetiere"]
+- !private ["6XCTest8ListableP", "allTestsMain"]
+- !private ["6XCTest8ListableP", "allTestsPioche"]
+- !private ["6XCTest8ListableP", "allTestsPosition"]
+- !private ["6XCTest8ListableP", "allTestsRoyaume"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "allTestsCarte"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "allTestsChampsDeBataille"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "allTestsCimetiere"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "allTestsMain"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "allTestsPioche"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "allTestsPosition"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "allTestsRoyaume"]
+- !private ["13typesAOWTests19ProtocoleCarteTestsC", "allTestsCarte"]
+- !private ["13typesAOWTests30ProtocoleChampsDeBatailleTestsC", "allTestsChampsDeBataille"]
+- !private ["13typesAOWTests23ProtocoleCimetiereTestsC", "allTestsCimetiere"]
+- !private ["13typesAOWTests18ProtocoleMainTestsC", "allTestsMain"]
+- !private ["13typesAOWTests20ProtocolePiocheTestsC", "allTestsPioche"]
+- !private ["13typesAOWTests22ProtocolePositionTestsC", "allTestsPosition"]
+- !private ["13typesAOWTests21ProtocoleRoyaumeTestsC", "allTestsRoyaume"]
+- !private ["6XCTestAAC", "allTestsCarte"]
+- !private ["6XCTestAAC", "allTestsChampsDeBataille"]
+- !private ["6XCTestAAC", "allTestsCimetiere"]
+- !private ["6XCTestAAC", "allTestsMain"]
+- !private ["6XCTestAAC", "allTestsPioche"]
+- !private ["6XCTestAAC", "allTestsPosition"]
+- !private ["6XCTestAAC", "allTestsRoyaume"]
+- !private ["6XCTest0A4CaseC", "allTestsCarte"]
+- !private ["6XCTest0A4CaseC", "allTestsChampsDeBataille"]
+- !private ["6XCTest0A4CaseC", "allTestsCimetiere"]
+- !private ["6XCTest0A4CaseC", "allTestsMain"]
+- !private ["6XCTest0A4CaseC", "allTestsPioche"]
+- !private ["6XCTest0A4CaseC", "allTestsPosition"]
+- !private ["6XCTest0A4CaseC", "allTestsRoyaume"]
+depends-nominal:
+- !private "6XCTest8ListableP"
+- !private "6XCTest24PerformanceMeterDelegateP"
+- !private "13typesAOWTests19ProtocoleCarteTestsC"
+- !private "13typesAOWTests30ProtocoleChampsDeBatailleTestsC"
+- !private "13typesAOWTests23ProtocoleCimetiereTestsC"
+- !private "13typesAOWTests18ProtocoleMainTestsC"
+- !private "13typesAOWTests20ProtocolePiocheTestsC"
+- !private "13typesAOWTests22ProtocolePositionTestsC"
+- !private "13typesAOWTests21ProtocoleRoyaumeTestsC"
+- !private "6XCTestAAC"
+- !private "6XCTest0A4CaseC"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOW.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "74e4f2c4a25adf2bd47a6df9de0d7228"

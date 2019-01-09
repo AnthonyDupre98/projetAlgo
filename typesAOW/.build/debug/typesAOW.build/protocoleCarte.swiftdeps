@@ -1,0 +1,37 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocoleCarte"
+provides-nominal:
+- "8typesAOW14ProtocoleCarteP"
+provides-member:
+- ["8typesAOW14ProtocoleCarteP", ""]
+depends-top-level:
+- "Bool"
+- "Int"
+- "ProtocoleCarte"
+- "String"
+depends-member:
+- ["8typesAOW14ProtocoleCarteP", "Bool"]
+- ["8typesAOW14ProtocoleCarteP", "Int"]
+- ["8typesAOW14ProtocoleCarteP", "String"]
+- ["8typesAOW14ProtocoleCarteP", "afficheattaque"]
+- ["8typesAOW14ProtocoleCarteP", "affichedefenseD"]
+- ["8typesAOW14ProtocoleCarteP", "affichedefenseO"]
+- ["8typesAOW14ProtocoleCarteP", "affichernom"]
+- ["8typesAOW14ProtocoleCarteP", "ajoutdegat"]
+- ["8typesAOW14ProtocoleCarteP", "degatsCumules"]
+- ["8typesAOW14ProtocoleCarteP", "estRetournee"]
+- ["8typesAOW14ProtocoleCarteP", "init"]
+- ["8typesAOW14ProtocoleCarteP", "redresser"]
+- ["8typesAOW14ProtocoleCarteP", "retourner"]
+depends-nominal:
+- "8typesAOW14ProtocoleCarteP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "5bbd2807145d39639238d745b1a4cf0e"

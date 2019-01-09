@@ -1,0 +1,27 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocolePioche"
+provides-nominal:
+- "8typesAOW15ProtocolePiocheP"
+provides-member:
+- ["8typesAOW15ProtocolePiocheP", ""]
+depends-top-level:
+- "Int"
+- "ProtocolePioche"
+depends-member:
+- ["8typesAOW15ProtocolePiocheP", "Int"]
+- ["8typesAOW15ProtocolePiocheP", "ProtocoleCarte"]
+- ["8typesAOW15ProtocolePiocheP", "getnbCartes"]
+- ["8typesAOW15ProtocolePiocheP", "init"]
+- ["8typesAOW15ProtocolePiocheP", "piocher"]
+depends-nominal:
+- "8typesAOW15ProtocolePiocheP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "5b4cdb3527f114627f49f9c17b5ea67a"

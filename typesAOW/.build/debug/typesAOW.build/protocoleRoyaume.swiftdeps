@@ -1,0 +1,32 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocoleRoyaume"
+provides-nominal:
+- "8typesAOW16ProtocoleRoyaumeP"
+provides-member:
+- ["8typesAOW16ProtocoleRoyaumeP", ""]
+depends-top-level:
+- "Int"
+- "ProtocoleRoyaume"
+depends-member:
+- ["8typesAOW16ProtocoleRoyaumeP", "Int"]
+- ["8typesAOW16ProtocoleRoyaumeP", "ProtocoleCarte"]
+- ["8typesAOW16ProtocoleRoyaumeP", "getnbArchers"]
+- ["8typesAOW16ProtocoleRoyaumeP", "getnbCartes"]
+- ["8typesAOW16ProtocoleRoyaumeP", "getnbGardes"]
+- ["8typesAOW16ProtocoleRoyaumeP", "getnbSoldats"]
+- ["8typesAOW16ProtocoleRoyaumeP", "init"]
+- ["8typesAOW16ProtocoleRoyaumeP", "placer"]
+- ["8typesAOW16ProtocoleRoyaumeP", "retirer"]
+- ["8typesAOW16ProtocoleRoyaumeP", "voirSuivant"]
+depends-nominal:
+- "8typesAOW16ProtocoleRoyaumeP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "6012abcf7b3fd0b4651918901f7978cb"

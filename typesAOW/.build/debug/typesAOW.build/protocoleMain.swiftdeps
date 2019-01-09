@@ -1,0 +1,44 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocoleMain"
+provides-nominal:
+- "8typesAOW13ProtocoleMainP"
+provides-member:
+- ["8typesAOW13ProtocoleMainP", ""]
+depends-top-level:
+- "Int"
+- "IteratorProtocol"
+- "ProtocoleMain"
+- "Sequence"
+- "String"
+depends-member:
+- ["St", "Element"]
+- ["8typesAOW13ProtocoleMainP", "Int"]
+- ["8typesAOW13ProtocoleMainP", "IteratorMain"]
+- ["8typesAOW13ProtocoleMainP", "IteratorProtocol"]
+- ["8typesAOW13ProtocoleMainP", "ProtocoleCarte"]
+- ["8typesAOW13ProtocoleMainP", "String"]
+- ["8typesAOW13ProtocoleMainP", "ajouter"]
+- ["8typesAOW13ProtocoleMainP", "init"]
+- ["8typesAOW13ProtocoleMainP", "makeIterator"]
+- ["8typesAOW13ProtocoleMainP", "retirer"]
+- ["8typesAOW13ProtocoleMainP", "taille"]
+- ["ST", "Int"]
+- ["ST", "IteratorMain"]
+- ["ST", "IteratorProtocol"]
+- ["ST", "ProtocoleCarte"]
+- ["ST", "String"]
+- ["ST", ""]
+depends-nominal:
+- "St"
+- "8typesAOW13ProtocoleMainP"
+- "ST"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "355b98163c2d5f8f511c74e1e10f583b"

@@ -1,0 +1,6 @@
+version: "Swift version 4.2.1 (swift-4.2.1-RELEASE)"
+options: "f66315f64a3e256f7b3b3fac64fdaf31"
+build_time: [1544712344, 995656561]
+inputs:
+  "/home/oui/AOW/typesAOW/Tests/typesAOWTests/XCTestManifests.swift": [1544711098, 0]
+  "/home/oui/AOW/typesAOW/Tests/typesAOWTests/typesAOWTests.swift": !dirty [1544711098, 0]

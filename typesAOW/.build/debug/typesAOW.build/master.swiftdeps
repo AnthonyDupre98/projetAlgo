@@ -1,0 +1,11 @@
+version: "Swift version 4.2.1 (swift-4.2.1-RELEASE)"
+options: "263f8896c2358c6c22677febab133f91"
+build_time: [1544712344, 811237781]
+inputs:
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCarte.swift": [1544711098, 0]
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleChampsDeBataille.swift": [1544712188, 0]
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleCimetiere.swift": [1544712225, 0]
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleMain.swift": [1544712235, 0]
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePioche.swift": [1544712244, 0]
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocolePosition.swift": [1544712255, 0]
+  "/home/oui/AOW/typesAOW/Sources/typesAOW/protocoleRoyaume.swift": [1544712268, 0]

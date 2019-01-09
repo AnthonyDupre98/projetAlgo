@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/master.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Tests/typesAOWTests/XCTestManifests.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/XCTestManifests.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/XCTestManifests.swiftdeps"
+  },
+  "/home/oui/AOW/typesAOW/Tests/typesAOWTests/typesAOWTests.swift": {
+    "dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/typesAOWTests.d",
+    "object": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/typesAOWTests.swift.o",
+    "swiftmodule": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/typesAOWTests~partial.swiftmodule",
+    "swift-dependencies": "/home/oui/AOW/typesAOW/.build/x86_64-unknown-linux/debug/typesAOWTests.build/typesAOWTests.swiftdeps"
+  }
+}

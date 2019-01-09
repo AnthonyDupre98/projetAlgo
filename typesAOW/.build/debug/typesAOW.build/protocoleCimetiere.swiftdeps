@@ -1,0 +1,24 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocoleCimetiere"
+provides-nominal:
+- "8typesAOW18ProtocoleCimetiereP"
+provides-member:
+- ["8typesAOW18ProtocoleCimetiereP", ""]
+depends-top-level:
+- "ProtocoleCimetiere"
+depends-member:
+- ["8typesAOW18ProtocoleCimetiereP", "ProtocoleCarte"]
+- ["8typesAOW18ProtocoleCimetiereP", "ajouter"]
+- ["8typesAOW18ProtocoleCimetiereP", "init"]
+depends-nominal:
+- "8typesAOW18ProtocoleCimetiereP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/oui/T\xE9l\xE9chargements/swift-4.2.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "6a715fc37eced637fa739b1a3ede79c6"
